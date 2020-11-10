@@ -1,0 +1,47 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pregunt.AR</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+ 
+        <!--Linkear con el *.css-->
+        <link rel="stylesheet" href="game.css">
+        <link rel="stylesheet" href="add.css">
+        <!--Linkear con el javascript-->
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    </head>       
+
+    <body>
+
+        <form>
+            <fieldset>
+              <label for="nameField">Pregunta</label>
+              <input type="text" placeholder="¿que año nacio San Martin?" id="nameField">
+              <label for="nameField1">Respuesta 1</label>
+              <input type="text" placeholder="1992" id="nameField1">
+              <label for="nameField">Respuesta 2</label>
+              <input type="text" placeholder="1882" id="nameField">
+              <label for="nameField">Respuesta 3</label>
+              <input type="text" placeholder="1882" id="nameField">
+              <label for="nameField">Respuesta 4</label>
+              <input type="text" placeholder="1882" id="nameField">
+              <label for="ageRangeField">Respuesta correcta</label>
+              <select id="ageRangeField">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <div class="float-right">
+                <input type="checkbox" id="confirmField">
+                <label class="label-inline" for="confirmField">Send a copy to yourself</label>
+              </div>
+              <input class="button-primary" type="submit" value="Guardar">
+            </fieldset>
+          </form>
+    </body>
