@@ -2,9 +2,9 @@
   "name": "pregunt.ar",
   "version": "1.0.0",
   "description": "Trivia MultipleChoice w/AR",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node script.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
