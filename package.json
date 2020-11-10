@@ -1,0 +1,32 @@
+{
+  "name": "pregunt.ar",
+  "version": "1.0.0",
+  "description": "Trivia MultipleChoice w/AR",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gazzimon/Pregunt.ar.git"
+  },
+  "keywords": [
+    "WEBAR",
+    "Trivia",
+    "schools",
+    "tools"
+  ],
+  "author": "Azzimonti Renzo Gustavo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gazzimon/Pregunt.ar/issues"
+  },
+  "homepage": "https://github.com/gazzimon/Pregunt.ar#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {}
+}
